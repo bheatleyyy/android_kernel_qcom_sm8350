@@ -35,7 +35,7 @@ exit 1
 fi
 fi
 
-MAKE_PARAMS="O=out ARCH=arm64 CC=clang CLANG_TRIPLE=aarch64-linux-gnu- LLVM=1 TARGET_PRODUCT=$DEVICE \
+MAKE_PARAMS="O=out ARCH=arm64 CC=clang CLANG_TRIPLE=aarch64-linux-gnu- TARGET_PRODUCT=$DEVICE \
 	CROSS_COMPILE=$GCC_64_DIR/bin/aarch64-linux-android- \
 	CROSS_COMPILE_ARM32=$GCC_32_DIR/bin/arm-linux-androideabi-"
 
